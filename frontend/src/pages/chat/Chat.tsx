@@ -585,8 +585,8 @@ const Chat = () => {
                                     className={styles.chatIcon}
                                     aria-hidden="true"
                                 />
-                                <h1 className={styles.chatEmptyStateTitle}>Hi! I am Steve.</h1>
-                                <h2 className={styles.chatEmptyStateSubtitle}>I can answer your questions about Assessor Specific Domain as Prop 19 or Exemptions.</h2>
+                                <h1 className={styles.chatEmptyStateTitle}>Hi! I am Steve, your Assessor Copilot built by Modern iConcepts.</h1>
+                                <h2 className={styles.chatEmptyStateSubtitle}>I can answer your Property Tax related questions like Prop 19 or Exemptions or County Assessment Procedures.</h2>
                             </Stack>
                         ) : (
                             <div className={styles.chatMessageStream} style={{ marginBottom: isLoading ? "40px" : "0px"}} role="log">
