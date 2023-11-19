@@ -586,7 +586,7 @@ const Chat = () => {
                                     aria-hidden="true"
                                 />
                                 <h1 className={styles.chatEmptyStateTitle}>Hi! I am Steve.</h1>
-                                <h2 className={styles.chatEmptyStateSubtitle}>I can answer your questions</h2>
+                                <h2 className={styles.chatEmptyStateSubtitle}>I can answer your questions about Assessor Specific Domain as Prop 19 or Exemptions.</h2>
                             </Stack>
                         ) : (
                             <div className={styles.chatMessageStream} style={{ marginBottom: isLoading ? "40px" : "0px"}} role="log">
